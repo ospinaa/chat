@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3aedc;
+  }
+  
+  .box {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: rgb(199, 155, 199)    ;
+    border-radius: 40px;
+
+  }
+  
+  .chat-messages {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #f4dff1;
+    border-radius: 20px;
+    overflow-y: scroll;
+    height: 500px;
+
+  }
+  
+  .input-azul {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .input-rojo {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-azul input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #beddfe;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+
+  }
+
+  .input-rojo input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #e6a5a5;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .input-azul button {
+    padding: 8px 15px;
+    background-color: #147ded;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .input-rojo button {
+    padding: 8px 15px;
+    background-color: #dc1414;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
